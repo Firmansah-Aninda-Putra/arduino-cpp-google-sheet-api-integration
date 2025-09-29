@@ -5,14 +5,14 @@
 #include "DHT.h"
 #include <GS_SDHelper.h>
 
-#define WIFI_SSID "3-JAGOANKU"
-#define WIFI_PASSWORD "janganlupabismillah"
+#define WIFI_SSID "wifiid"
+#define WIFI_PASSWORD "wifipassword"
 
 // Google Project ID
-#define PROJECT_ID "iot-datalogging-472814"
+#define PROJECT_ID "project-id"
 
 // Service Account's client email
-#define CLIENT_EMAIL "iot-datalogging@iot-datalogging-472814.iam.gserviceaccount.com"
+#define CLIENT_EMAIL "client_email"
 
 // Service Account's private key (ganti dengan private key dari JSON file Anda)
 const char PRIVATE_KEY[] PROGMEM = "-----BEGIN PRIVATE KEY-----\n"
@@ -45,7 +45,7 @@ const char PRIVATE_KEY[] PROGMEM = "-----BEGIN PRIVATE KEY-----\n"
 "-----END PRIVATE KEY-----\n";
 
 // The ID of the spreadsheet (ganti dengan ID spreadsheet Anda)
-const char spreadsheetId[] = "1f4SmCgEJ2cXqdvmQB5Y0xIuDmoRsbl1pIJvQp30Csnc";
+const char spreadsheetId[] = "char_spreadsheet";
 
 // Timer variables
 unsigned long lastTime = 0;  
