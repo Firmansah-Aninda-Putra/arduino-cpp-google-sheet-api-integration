@@ -15,34 +15,7 @@
 #define CLIENT_EMAIL "client_email"
 
 // Service Account's private key (ganti dengan private key dari JSON file Anda)
-const char PRIVATE_KEY[] PROGMEM = "-----BEGIN PRIVATE KEY-----\n"
-"MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC2Lz81yAWFqmAG\n"
-"oTN2HWPhiaZVfB9EEWIXT7Gsv0TnLmD8lbfXS/mNpbeqBTbWN1w8UIY9w6jXjQzt\n"
-"5wR8jc9F3f5XUztYWASxPsm9oFpYs9jrbdWxgfMlpnPZHS/xaWPPlz1lVvqrLHQy\n"
-"jf8KchqtCptQLxrXaRNFcJBBBYi7yb3t+yvZwq4c7gDwC1fgAP78Q9ugIWjNURpq\n"
-"jfGYpGu+YuY7F2tSZkxnaMUDSh8SeD2O3w3FfTgk2Si/T3LxB6o/DvTctYX5BJa6\n"
-"bJ5uvJWTCZHwtpF9GorMjrRWGPH1IS3WS9A0CW1SkFpGKiy4xCZogTqJbqDrCaZO\n"
-"GRqzouxHAgMBAAECggEAH7UNXUDYpTDH0Z+Qo0fuMDyStGIL1v7ngYMfOx920H1j\n"
-"59Hu0wun/R0QYAjUSGgOJ3kkQ++fnRQxYd5JC5xqrJA8Sdp0g6Wd+3MgDV6xGqsC\n"
-"X8cX3/Lr7GuR0gGgbHWZJ3H8/3wp2Ey+VGYeMyU0u1UTPttT4pWpAvbaRFbAO15P\n"
-"0I3DTI1Cuhf4OAGRcZYCSj0dM9Vkkey2iIbkrHukczkiBjsM0h06eslogbQVTuRb\n"
-"VYp6Xg4s7WwHClPOhtVnkpxqxkgFHGGSMEftyTrm73bnKC4gPyrUfuCxa51LrNjV\n"
-"161dg6+BmL8LfyYmF6Mh/x+rm/YAKl0jfxhbLwDHgQKBgQDn+CSjU87IJR50lrtc\n"
-"sbRvgBoTE9Ps1m8JODlEW/woFsToqIRg2cDIRmzhYHau747NlJaEVvC3Rml/dcOd\n"
-"rAbL7cWAIN3eP2AGhzg/x9HNH93eZ7axzwVKNyWuKVEfA8OGhesLG4intu8Kza5A\n"
-"5se8SyBKx7mSqfMoFTaE8+/NpwKBgQDJDs47cT8aXhiqM0vona4bN8QrAzMJJ473\n"
-"zoLilCNfd18HU+K9U5FCDWo9ytp2fRnHBOGb9XjR8mPj2+i7wieNpvrHrB0REeDs\n"
-"/Pn31LulbbKq5Git3pVfP8fpe/K1ZyRnsfvVXeDCjMHwZGHEoyO+xN2e66RasQLK\n"
-"QiKuAMoAYQKBgAjuIaL0CALmguykHORtpu+f8+EGI2N7wdyOAI5kKCn27m+yhR4h\n"
-"Y+2R4IEwsID9kfbSIJVJr4yutkME6pn4VG6nYbIUEdaLhAvcSssRyz7lWipEveDM\n"
-"gnyf8OBqkMfr4iwcnbbYwYMLZNp6npm7CLd0APNACyHdTxIc9vNZXMMDAoGAZ74T\n"
-"++f7P4e+AlRlnql95N1pgygrdVXMF2Gfd3oopmHZztYh8L7l/McfQrMg9nKmkmKa\n"
-"ZvbKWMpRcIlQFVGhRx4Z2F2ewegPvzjpYk+KY1mvDy68NLrdKECoznj+S0vlJPxZ\n"
-"jUbbaodmqruhFu12zECYeh/stj8PyX1Gl7IgiQECgYBa2jvkyz/7FyjwGjDFr87O\n"
-"M69Y1OKms1GW+BGZXi72Qgj0rmLaVvdVFgAVOmcZxXEPl90+4uQeiFxfH/LZWzAt\n"
-"cu18ONNOVbH31oW02LLVP/UX/VG0hC+l7vvYz2V7jskl0F6GBwk2tbBppKF3ytJJ\n"
-"obYWGthGecT3aRzxRtdgmw==\n"
-"-----END PRIVATE KEY-----\n";
+const char PRIVATE_KEY[] PROGMEM = "private_key";
 
 // The ID of the spreadsheet (ganti dengan ID spreadsheet Anda)
 const char spreadsheetId[] = "char_spreadsheet";
